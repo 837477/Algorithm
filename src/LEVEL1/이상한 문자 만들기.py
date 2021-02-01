@@ -8,4 +8,4 @@ def solution(s):
             else:
                 temp += c.lower()
         answer.append(temp)
-    return " ".join(answer)
+    return ' '.join(answer)
