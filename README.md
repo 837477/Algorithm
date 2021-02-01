@@ -5,11 +5,6 @@
 <br>
 
 ## Indexes
-1. LEVEL1
-
-2. LEVEL2
-
-## Meta
 
 🙋🏻‍♂️ Name: 837477
 
