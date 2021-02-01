@@ -1,10 +1,8 @@
-import re
-
 def solution(s):
-    l = re.findall("[A-Z]", s)
-    s = re.sub("[A-Z]", "", s)
-
-    return "".join(sorted(s, reverse=True) + sorted(l, reverse=True))
-
-if __name__ == "__main__":
-    print(solution("Zbcdefg"))
+    if len(s) != 4 and len(s) != 6:
+        return False
+    try:
+        int(s)
+        return True
+    except:
+        return False
