@@ -9,10 +9,8 @@ def solution(arr):
             if num % a != 0:
                 flag = False
                 break
-            
         if flag:
             return num
-
         num += max_
 
 if __name__ == "__main__":
