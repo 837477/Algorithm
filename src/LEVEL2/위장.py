@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 def solution(clothes):
     cloth_set = defaultdict(int)
     for cloth in clothes:

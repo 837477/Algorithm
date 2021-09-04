@@ -1,9 +1,6 @@
 def solution(numbers):
     numbers = [str(i) for i in numbers]
-    temp = []
-    for num in numbers:
-        temp_list = [num, num * 10]
-        temp.append(temp_list)
+    temp = [[num, num * 10] for num in numbers]
     temp.sort(key=lambda x:x[1],reverse=True)
     
     result = [i[0] for i in temp]

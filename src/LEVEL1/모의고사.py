@@ -12,10 +12,5 @@ def solution(answers):
         if value == h3[idx%10]:
             cnt[2] += 1
 
-    answer = []
     max_ = max(cnt)
-    for i in range(3):
-        if cnt[i] == max_:
-            answer.append(i+1)
-    
-    return answer
+    return [i+1 for i in range(3) if cnt[i] == max_]

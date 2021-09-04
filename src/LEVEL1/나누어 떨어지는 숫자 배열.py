@@ -1,9 +1,5 @@
 def solution(arr, divisor):
-    answer = []
-    for n in arr:
-        if n % divisor == 0:
-            answer.append(n)
+    answer = sorted([n for n in arr if n % divisor == 0])
     if not answer:
-        answer.append(-1)
-    answer.sort()
+        return [-1]
     return answer

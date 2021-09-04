@@ -1,8 +1,6 @@
 def solution(arr):
-    max_ = min(arr)
+    num = max_ = min(arr)
     arr.remove(max_)
-
-    num = max_
     while True:
         flag = True
         for a in arr:

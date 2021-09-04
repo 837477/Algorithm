@@ -1,6 +1,5 @@
-bag = [0] * 100001
-
 def solution(n):
+    bag = [0] * 100001
     for i in range(n+1):
         if i == 0:
             bag[i] = 0
