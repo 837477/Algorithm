@@ -1,5 +1,5 @@
 def solution(sizes):
-    return max(list(map(max, sizes))) * max(list(map(min, sizes)))
+    return max(map(max, sizes)) * max(map(min, sizes))
 
 
 if __name__ == "__main__":
